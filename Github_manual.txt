@@ -15,11 +15,17 @@ git 설치
 	github 사이트에 repository 생성
 	우클릭 - git bash here 실행
 	git init - 로컬 repository생성
-	git pull - 병합
 	git add . - 파일 추가
 	git commit -m "master" - 파일 올리기
 	git remote add origin https://github.com/계정/리포지토리명 - remote repository 연결
 	git push origin master - 파일 업로드 - origin(저장소명), master(브랜치명)
+	
+	
+업로드
+	git pull - 병합
+	git add .
+	git commit -m "master"
+	git push
 	
 	
 기존 remote repository 제거
