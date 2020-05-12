@@ -1,0 +1,36 @@
+git 설치
+	https://git-scm.com/downloads
+
+
+개념
+	github repository = remote repository
+	local repository = local repository
+
+
+업로드 순서 
+	add, commit, push
+
+
+첫 업로드
+	github 사이트에 repository 생성
+	우클릭 - git bash here 실행
+	git init - 로컬 repository생성
+	git add . - 파일 추가
+	git commit - 파일 올리기
+	git remote add origin https://github.com/계정/리포지토리명 - remote repository 연결
+	git push origin master - 파일 업로드 - origin(저장소명), master(브랜치명)
+	
+	
+업로드
+	git pull - 병합
+	git add .
+	git commit
+	git push
+	
+	
+기존 remote repository 제거
+	git remove remove origin
+	
+	
+local repository 삭제 방법
+	폴더 - 보기 - 숨긴항목 체크 - .git 폴더 삭제
